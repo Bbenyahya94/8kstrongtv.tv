@@ -1,0 +1,3 @@
+import Header from '../../components/Header'; import Footer from '../../components/Footer'; import TrialForm from '../../components/TrialForm';
+export const metadata={title:'Free 24-hour IPTV trial',description:'Request a 24-hour 8K Strong TV test line with device-specific setup guidance.'};
+export default function TrialPage(){return <><Header/><main className="shell py-20"><div className="mx-auto max-w-2xl text-center"><p className="eyebrow">Try before you decide</p><h1 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Request your free 24-hour test line.</h1><p className="mt-4 text-slate-400">Choose your device and app, then continue directly to WhatsApp for activation.</p></div><div className="mt-10"><TrialForm/></div></main><Footer/></>}

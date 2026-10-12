@@ -1,0 +1,2 @@
+import Header from './Header'; import Footer from './Footer';
+export default function LegalPage({title,updated='October 12, 2026',children}) { return <><Header/><main className="shell max-w-4xl py-16 sm:py-20"><p className="eyebrow">Legal & trust</p><h1 className="mt-3 text-4xl font-black tracking-tight sm:text-5xl">{title}</h1><p className="mt-4 text-sm text-slate-500">Last updated: {updated}</p><article className="card prose prose-invert prose-slate mt-10 max-w-none p-7 leading-7 sm:p-10">{children}</article></main><Footer/></>; }
